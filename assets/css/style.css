@@ -110,7 +110,7 @@ html {
     background-color: white;
   }
   nav a:first-child {
-    margin-right: -1.75;
+    margin-right: 20px;
     border-left: 0 none;
   }
   a:hover, input[type=submit]:hover {
