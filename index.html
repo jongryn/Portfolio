@@ -37,9 +37,9 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#services">Services</a>
-            </li>
+            </li> -->
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
             </li>
@@ -49,9 +49,9 @@
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#team">Me</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-            </li>
+            </li> -->
           </ul>
         </div>
       </div>
@@ -69,7 +69,7 @@
     </header>
 
     <!-- Services -->
-    <section id="services">
+    <!-- <section id="services">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
@@ -104,7 +104,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Portfolio Grid -->
     <section class="bg-light" id="portfolio">
@@ -116,7 +116,22 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4 col-sm-6 portfolio-item">
+
+          <div class="col-md-6 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/4.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Buzzr. App</h4>
+              <p class="text-muted">Project</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6 portfolio-item">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
@@ -130,21 +145,7 @@
               <p class="text-muted">Team Project</p>
             </div>
           </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/4.jpg" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>Sequelize - Burger</h4>
-              <p class="text-muted">Project</p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
+          <!-- <div class="col-md-4 col-sm-6 portfolio-item">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
@@ -198,7 +199,7 @@
             <div class="portfolio-caption">
               <h4>Liri Bot</h4>
               <p class="text-muted">Project</p>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -211,7 +212,7 @@
           <div class="col-lg-12">
             <h2 class="section-heading text-center">About</h2>
             <h3 class="section-subheading text-muted text-center">
-            <p>A Full Stack Software Engineer
+            <p>A Full Stack Web Developer
               with an interest in web and mobile application development, business
               development, digital marketing, and E-Commerce account management.</p>
             </h3>
@@ -246,7 +247,7 @@
                   <div class="timeline-heading">
                     <h4>Fall 2005</h4>
                     <h4 class="subheading">Started My Journey with My First
-                      Programming Course</h4>
+                      Web Development Course</h4>
                   </div>
                   <div class="timeline-body">
                     <p class="text-muted">It was my sophomore year of high school
@@ -293,7 +294,7 @@
                   <div class="timeline-body">
                     <p class="text-muted">Started at UCI learning front-end and
                     back-end web development. I end my 6-month intensive
-                    programming course in December and plan on working with a
+                    web development course in December and plan on working with a
                     great, massively growing organization who adds great value
                     to people's lives.</p>
                   </div>
@@ -344,8 +345,8 @@
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/jonnygryn.jpg" alt="">
               <h4>Jon Gryn</h4>
-              <p class="text-muted">Full Stack Software Engineer</p>
-              <ul class="list-inline social-buttons">
+              <p class="text-muted">Full Stack Web Developer</p>
+              <!-- <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
                   <a href="https://github.com/jongryn">
                     <i class="fa fa-github"></i>
@@ -366,7 +367,7 @@
                     <i class="fa fa-stack-overflow"></i>
                   </a>
                 </li>
-              </ul>
+              </ul> -->
             </div>
           </div>
           <div class="col-sm-4">
@@ -409,7 +410,7 @@
     </section> -->
 
     <!-- Contact -->
-    <section id="contact">
+    <!-- <section id="contact">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
@@ -451,7 +452,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Footer -->
     <footer>
@@ -501,6 +502,64 @@
     <!-- Portfolio Modals -->
 
     <!-- Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2>Buzzr. App</h2>
+                  <p class="item-intro text-muted">Link: <a href="https://buzzrapp.herokuapp.com/">https://buzzrapp.herokuapp.com/</a></p>
+                  <a href="https://buzzrapp.herokuapp.com/"><img class="img-fluid d-block mx-auto" src="https://github.com/jongryn/Portfolio/blob/master/img/portfolio/4-full.jpg?raw=true" alt=""></a>
+                  <p><strong>Description:</strong></p>
+                  <p>A mobile application that allows users to get wait times for restaurants. Once the user decides what restaurant they want to go to, they are able to check-in and make a reservation.
+                    Users are able to play a trivia game while they wait for their table and have the chance to win a coupon to the restaurant. They are notified on their mobile device as soon as their table is ready.</p>
+                  <p><strong>Demo:</strong></p>
+                  <p>The demo of the burger eating application can be found [<a href="https://buzzrapp.herokuapp.com/">here</a>].</p>
+                  <p><strong>Starting the app locally</strong></p>
+                  <p>1. To run the application locally, first clone this repository with the following command:</p>
+                  <p>git clone git@github.com:jongryn/Blackberry-Team-Project.git</p>
+                  <p>2. Install the application dependencies:</p>
+                  <ul class="list-inline">
+                    <li>cd Blackberry-Team-Project</li>
+                    <li>npm install</li>
+                    <li>yarn install</li>
+                    <li>cd client</li>
+                    <li>npm install</li>
+                    <li>yarn install</li>
+                    <li>cd ..</li>
+                    <li>mongod</li>
+                    <li>npm run seed</li>
+                    <li>verify users and restaurants have been added to DB client</li>
+                    <li>``</li>
+                    <br />
+                    <li>After both installations complete, run the following command in your terminal:</li>
+                  </ul>
+                  <p>yarn start</p>
+                  <p>That's it, your app should be running on http://localhost:3000. The Express server should intercept any AJAX requests from the client.</p>
+                  <ul class="list-inline">
+                    <li>Technologies: MongoDB, Express, ReactJS, and Node (MERN)</li>
+                    <li>Date: December 2017</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 2 -->
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -542,7 +601,7 @@
     </div>
 
     <!-- Modal 2 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="close-modal" data-dismiss="modal">
@@ -553,9 +612,9 @@
           <div class="container">
             <div class="row">
               <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
+                <div class="modal-body"> -->
                   <!-- Project Details Go Here -->
-                  <h2>Sequelize - Burger</h2>
+                  <!-- <h2>Sequelize - Burger</h2>
                   <p class="item-intro text-muted">Link: <a href="https://app-burger.herokuapp.com/">https://app-sequelize-burger.herokuapp.com/</a></p>
                   <a href="https://app-burger.herokuapp.com/"><img class="img-fluid d-block mx-auto" src="https://github.com/jongryn/Portfolio/blob/master/img/portfolio/4-full.jpg?raw=true" alt=""></a>
                   <p><strong>Description:</strong></p>
@@ -594,10 +653,10 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!-- Modal 3 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="close-modal" data-dismiss="modal">
@@ -610,7 +669,7 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2>FriendFinder</h2>
+                  <!-- <h2>FriendFinder</h2>
                   <p class="item-intro text-muted">Link: <a href="https://app-friend-finder.herokuapp.com/">https://app-friend-finder.herokuapp.com/</a></p>
                   <a href="https://app-friend-finder.herokuapp.com/"><img class="img-fluid d-block mx-auto" src="https://github.com/jongryn/Portfolio/blob/master/img/portfolio/3-full.jpg?raw=true" alt=""></a>
                   <p><strong>Description:</strong></p>
@@ -645,10 +704,10 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> --> -->
 
     <!-- Modal 4 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="close-modal" data-dismiss="modal">
@@ -659,9 +718,9 @@
           <div class="container">
             <div class="row">
               <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
+                <div class="modal-body"> -->
                   <!-- Project Details Go Here -->
-                  <h2>Bamazon</h2>
+                  <!-- <h2>Bamazon</h2>
                   <p class="item-intro text-muted">Link: <a href="https://github.com/jongryn/Bamazon">https://github.com/jongryn/Bamazon</a></p>
                   <a href="https://github.com/jongryn/Bamazon"><img class="img-fluid d-block mx-auto" src="https://github.com/jongryn/Portfolio/blob/master/img/portfolio/2-full.jpg?raw=true" alt=""></a>
                   <p><strong>Description:</strong></p>
@@ -712,10 +771,10 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!-- Modal 5 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="close-modal" data-dismiss="modal">
@@ -726,9 +785,9 @@
           <div class="container">
             <div class="row">
               <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
+                <div class="modal-body"> -->
                   <!-- Project Details Go Here -->
-                  <h2>RPS Multiplayer Game</h2>
+                  <!-- <h2>RPS Multiplayer Game</h2>
                   <p class="item-intro text-muted">Link: <a href="https://github.com/jongryn/RPS-Multiplayer">https://github.com/jongryn/RPS-Multiplayer</a></p>
                   <a href="https://github.com/jongryn/RPS-Multiplayer"><img class="img-fluid d-block mx-auto" src="https://github.com/jongryn/Portfolio/blob/master/img/portfolio/6-full.jpg?raw=true" alt=""></a>
                   <p><strong>Description:</strong></p>
@@ -746,10 +805,10 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!-- Modal 6 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="close-modal" data-dismiss="modal">
@@ -760,9 +819,9 @@
           <div class="container">
             <div class="row">
               <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
+                <div class="modal-body"> -->
                   <!-- Project Details Go Here -->
-                  <h2>Liri Bot</h2>
+                  <!-- <h2>Liri Bot</h2>
                   <p class="item-intro text-muted">Link: <a href="https://github.com/jongryn/liri-node-app">https://github.com/jongryn/liri-node-app</a></p>
                   <a href="https://github.com/jongryn/liri-node-app"><img class="img-fluid d-block mx-auto" src="https://github.com/jongryn/Portfolio/blob/master/img/portfolio/5-full.jpg?raw=true" alt=""></a>
                   <p><strong>Description:</strong></p>
@@ -837,7 +896,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
